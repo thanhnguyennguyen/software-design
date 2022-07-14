@@ -1,0 +1,4 @@
+- [SOLID](https://github.com/thanhnguyennguyen/software-design/tree/master/principles/SOLID)
+  - [Dependency Injection](https://toidicodedao.com/2015/11/03/dependency-injection-va-inversion-of-control-phan-1-dinh-nghia/)  
+- [Scalability Design Principles](https://github.com/thanhnguyennguyen/software-design/tree/master/principles/scalability-design-principles)
+- [Aspect Oriented Programing](https://viblo.asia/p/aspect-oriented-programming-aKYMNjzKM83E) , [AOP Sample](https://viblo.asia/p/su-dung-aop-trong-spring-boot-va-aspectj-vyDZOkbaZwj)
