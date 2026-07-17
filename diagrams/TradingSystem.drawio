@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="_YTyJ5NhZcltQBf8X0dS">
-    <mxGraphModel dx="1004" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,7 +73,7 @@
         <mxCell id="ZetVeowE0RB64zZaQpGS-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="70" width="160" x="680" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="ZetVeowE0RB64zZaQpGS-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="BTC - USDT&lt;br&gt;Matching Engine" vertex="1">
+        <mxCell id="ZetVeowE0RB64zZaQpGS-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Matching Engine Partition&lt;br&gt;BTC - USDT&lt;br&gt;BTC - USDC" vertex="1">
           <mxGeometry height="40" width="95" x="378" y="345" as="geometry" />
         </mxCell>
         <mxCell id="ZetVeowE0RB64zZaQpGS-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Event Bus" vertex="1">
@@ -118,12 +118,6 @@
         <mxCell id="ZetVeowE0RB64zZaQpGS-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="70" width="160" x="345" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="ZetVeowE0RB64zZaQpGS-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ETH - USDT&lt;br&gt;Matching Engine" vertex="1">
-          <mxGeometry height="40" width="95" x="378" y="425" as="geometry" />
-        </mxCell>
-        <mxCell id="ZetVeowE0RB64zZaQpGS-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="BNB - USDT&lt;br&gt;Matching Engine" vertex="1">
-          <mxGeometry height="40" width="95" x="378" y="505" as="geometry" />
-        </mxCell>
         <mxCell id="ZetVeowE0RB64zZaQpGS-38" edge="1" parent="1" source="ZetVeowE0RB64zZaQpGS-21" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="400" y="280" as="sourcePoint" />
@@ -166,7 +160,7 @@
             <mxPoint x="560.5" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZetVeowE0RB64zZaQpGS-48" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+        <mxCell id="ZetVeowE0RB64zZaQpGS-48" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="505" y="520" as="sourcePoint" />
             <mxPoint x="560" y="520" as="targetPoint" />
@@ -189,6 +183,12 @@
         </mxCell>
         <mxCell id="ZetVeowE0RB64zZaQpGS-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Trade History&lt;div&gt;WebSocket&lt;/div&gt;&lt;div&gt;Settle Balance&lt;/div&gt;&lt;div&gt;Risk, Fraud Check&lt;/div&gt;&lt;div&gt;Analytics&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="705" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qdvye1nUvqzYjnGjQd7E-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Matching Engine Partition&lt;br&gt;ETH - USDT&lt;br&gt;BNB - USDC" vertex="1">
+          <mxGeometry height="40" width="95" x="378" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="qdvye1nUvqzYjnGjQd7E-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Matching Engine Partition&lt;br&gt;SOL - USDT&lt;br&gt;TRX - USDT" vertex="1">
+          <mxGeometry height="40" width="95" x="378" y="505" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
